@@ -1,0 +1,21 @@
+{
+	"name": "git-active-branch",
+	"version": "0.0.1",
+	"description": "Get the name of currently active git branch programatically in Node.js.",
+	"license": "MIT",
+	"repository": "ahmadawais/git-active-branch",
+	"author": {
+		"name": "Ahmad Awais",
+		"email": "me@AhmadAwais.com",
+		"url": "https://twitter.com/MrAhmadAwais"
+	},
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"git-active-branch",
+		"Ahmad Awais",
+		"ahmadawais"
+	]
+}
