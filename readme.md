@@ -23,7 +23,22 @@ npm install git-active-branch
 
 ```js
 const gitActiveBranch = require('git-active-branch');
+const name = await gitActiveBranch(__dirname); // Data in name is `master` if current branch is master.
 ```
+
+<br />
+
+[![📃](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/options.png)](./../../)
+
+## API
+
+### gitActiveBranch(rootPath)
+
+#### ❯ rootPath
+
+Type: `string`
+
+Root path of your git repository. For files in the root pass it `__dirname`. For files two steps down you can pass `__dirname/../../`.
 
 <br>
 
